@@ -7,7 +7,7 @@
     <ProjectGuid>{5B4E2DB0-5D2C-4C47-AFF0-461C55200864}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ASD</RootNamespace>
+    <RootNamespace></RootNamespace>
     <AssemblyName>TestSet</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -41,11 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ASD\TestCase.cs" />
+    <Compile Include="ASD\TestModule.cs" />
+    <Compile Include="ASD\TestSet.cs" />
+    <Compile Include="ASD\TimeLimitRunner.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TestCase.cs" />
-    <Compile Include="TestModule.cs" />
-    <Compile Include="TestSet.cs" />
-    <Compile Include="TimeLimitRunner.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
